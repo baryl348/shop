@@ -1,0 +1,18 @@
+.header {
+  background-image: url("https://img1.pnghut.com/19/2/5/wwW3GupEsB/wood-stock-photography-carpenter-grain.jpg");
+  right: 0;
+  position: fixed;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  z-index: 999;
+}
+
+.header div {
+  padding: 20px 0 20px 0;
+}
+
+.logo {
+  height: 90px;
+}
