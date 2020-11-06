@@ -1,0 +1,34 @@
+.app {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  top: 120px;
+  input {
+    width: 550px;
+    height: 32px;
+    border: chocolate 2px solid;
+    border-radius: 5px 0 0 5px;
+    border-right: none;
+    &:focus {
+      outline: none;
+    }
+  }
+  select {
+    border: chocolate 2px solid;
+    &:focus {
+      outline: none;
+    }
+    option {
+      outline: none;
+    }
+  }
+  i {
+    font-size: 32px;
+  }
+  button {
+    border: chocolate 2px solid;
+    border-left: none;
+    border-radius: 0 5px 5px 0;
+  }
+}

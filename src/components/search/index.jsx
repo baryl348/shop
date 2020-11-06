@@ -1,6 +1,6 @@
 import React from "react";
 import { Field, reduxForm } from "redux-form";
-import style from "./style/search.module.css";
+import style from "./style/index.module.scss";
 
 const Search = () => {
   return (
@@ -10,7 +10,9 @@ const Search = () => {
         <option />
         <option></option>
       </Field>
-      <Field component="button" />
+      <Field component="button">
+        <i class="fas fa-search"></i>
+      </Field>
     </div>
   );
 };

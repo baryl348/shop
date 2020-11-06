@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./style/index.module.css";
+import style from "./style/index.module.scss";
 
 export const NavigationBar = () => {
   return (

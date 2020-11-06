@@ -1,10 +1,11 @@
-import "./App.css";
+import React from 'react'
+import "./App.scss";
 import { Header } from "./components/header";
 import { NavigationBar } from "./components/navBar";
 import { Title } from "./components/title";
 import Search from "./components/search";
 
-function App() {
+const App:React.FC=()=> {
   return (
     <>
       <Header />
@@ -14,5 +15,13 @@ function App() {
     </>
   );
 }
+
+// const ShopApp:React.FC=()=>{
+//   return(<BrowserRouter>
+//     <Provider store={store}>
+//     <App />
+//     </Provider>
+//     </BrowserRouter>)
+// }
 
 export default App;

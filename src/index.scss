@@ -13,3 +13,12 @@ i {
 i:hover {
   color: white;
 }
+
+i {
+  font-size: 40px;
+  color: rgba(148, 146, 146, 0.747);
+  transition: all 0.3s;
+  &:hover {
+    color: white;
+  }
+}
