@@ -2,7 +2,8 @@ import React from "react";
 import { Field, reduxForm } from "redux-form";
 import style from "./style/index.module.scss";
 
-const Search = () => {
+
+const Search: React.FC = () => {
   return (
     <div className={style.app}>
       <Field component="input" name="search" />
@@ -11,7 +12,7 @@ const Search = () => {
         <option></option>
       </Field>
       <Field component="button">
-        <i class="fas fa-search"></i>
+        <i className="fas fa-search"></i>
       </Field>
     </div>
   );
