@@ -11,9 +11,7 @@ const Search: React.FC = () => {
         <option />
         <option></option>
       </Field>
-      <Field component="button">
-        <i className="fas fa-search"></i>
-      </Field>
+      <button> <i className="fas fa-search"></i></button>
     </div>
   );
 };
